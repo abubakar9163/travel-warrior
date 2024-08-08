@@ -1,0 +1,110 @@
+@media screen and (max-width:600px) {
+    header{
+        margin: 20px 20px;
+    }
+    nav .nav-title-container{
+        width: 60%;
+        gap:0px;
+    }
+    nav .nav-title{
+        font-size: 18px;
+    }
+    nav .nav-title-img img{
+        width: 60%;
+    }
+    .nav-function a{
+        display: none;
+    }
+    .list-icon{
+        display: block;
+    }
+    /* banner styles */
+    .banner-container {
+        /* border: 2px solid red; */
+        margin-top: 50px;
+        background-image: url('../Images/Group\ 13\ \(1\)\ \(1\)\ \(2\)\ \(2\).png');
+        width: 100%;
+        height: 100%;
+        padding: 32px 24px;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .banner-title {
+        padding: 0px 50px;
+        text-align: center;
+        color: #FFF;
+        font-size: 1.4rem;
+        font-weight: 800;
+        margin-bottom: 0px;
+    
+    }
+    .banner-description {
+        padding: 0px 15px;
+        text-align: center;
+        color: #FFF;
+        text-align: center;
+        font-size: 0.8rem;
+        font-weight: 400;
+        margin-top: 8px;
+        margin-bottom: 32px;
+    }
+    .information {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 20px;
+        border-radius: 8px;
+        background: rgba(255, 255, 255, 0.30);
+        padding: 16px 0px;
+    }
+    .input-0 {
+        width: 260px;
+        border-radius: 8px;
+        background: #FFF;
+        padding: 16px 16px 16px 16px;
+        color: rgba(19, 19, 24, 0.50);
+        font-size: 1rem;
+        font-weight: 400;
+        border: none;
+    
+    }
+    
+    .input-1 {
+        position: relative;
+        width: 260px;
+        border-radius: 8px;
+        background: #FFF;
+        padding: 16px 16px 16px 16px;
+        color: rgba(19, 19, 24, 0.50);
+        font-size: 1rem;
+        font-weight: 400;
+        border: none;
+        outline: none;
+    }
+    
+    .input-1 i {
+        position: absolute;
+        left: 210px;
+        bottom: 16px;
+    }
+    
+    .input-2 {
+        width: 90px;
+        border: none;
+    }
+    
+    .btn-primary {
+        width: 260px;
+        border-radius: 8px;
+        background: #FF5400;
+        color: #FFF;
+        font-size: 1rem;
+        font-weight: 700;
+        padding: 16px 16px 16px 30px;
+        border: none;
+    
+    
+    }
+
+}
