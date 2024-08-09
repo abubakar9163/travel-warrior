@@ -69,7 +69,7 @@ nav .nav-function a {
     height: 100%;
     padding: 105px 185px;
     object-fit: cover;
-
+    background-repeat:no-repeat;
 }
 
 .banner-title {
@@ -494,5 +494,127 @@ nav .nav-function a {
     color: #FFF;
     font-size: 1.5rem;
     font-weight: 700;
+
+}
+
+/* newsletter section */
+/* form{ */
+    /* width: 48%; */
+/* } */
+.form-title{
+    color: #131318;
+font-size: 1.5rem;
+font-weight: 800;
+margin-bottom: 16px;
+margin-top: 70px;
+}
+.form-description{
+    color: #5A5A5D;
+font-size: 16px;
+font-weight: 400;
+margin-bottom: 40px;
+}
+.input-i{
+    border-radius: 8px;
+background: rgba(19, 19, 24, 0.05);
+color: rgba(19, 19, 24, 0.30);
+font-size: 1rem;
+font-weight: 400;
+border: none;
+padding: 16px 250px 16px 20px;
+display: block;
+margin-bottom: 16px;
+}
+.btn-3{
+    border-radius: 8px;
+background: #FF5400;
+color: #FFF;
+font-size: 1.2rem;
+font-weight: 800;
+padding: 14px 190px;
+border: none;
+}
+
+.newsletter-container{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    margin-bottom: 70px;
+}
+.newsletter-img{
+    margin-top: 70px;
+    width: 48%;
+    position: relative;
+}
+.newsletter-img img{
+    width: 100%;
+}
+.url-discount{
+    border-radius: 16px;
+background: #FF5400;
+padding: 20px 30px;
+width:324px ;
+position: absolute;
+transform: rotate(-20deg);
+bottom: 52px;
+left: 233px;
+}
+.url{
+    color: #FFF;
+font-size: 1.5rem;
+font-weight: 400;
+}
+.discount{
+    color: #FFF;
+font-size: 32px;
+font-weight: 800;
+}
+
+/* footer styles */
+
+footer{
+    background: rgba(19, 19, 24, 0.05);
+    padding: 110px 335px;
+}
+
+.footer-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    margin-bottom: 16px;
+
+}
+.footer-title{
+    color: #131318;
+    font-size: 2rem;
+    font-weight: 800;
+}
+.footer-title-style{
+    color: #FF5400;
+}
+.footer-description{
+    color: #5A5A5D;
+font-size: 1rem;
+font-weight: 400;
+margin-bottom: 25px;
+text-align: center;
+}
+.icon{
+    margin-left: 300px;
+    margin-bottom: 50px;
+}
+.icon i{
+    margin-right:20px ;
+}
+.line{
+     color: rgba(128, 128, 128, 0.134);
+    margin-bottom: 50px;
+}
+.footer-date{
+    color: #131318;
+font-size: 16px;
+font-weight: 300;
+text-align: center;
 
 }
