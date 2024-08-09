@@ -188,6 +188,7 @@ nav .nav-function a {
 .main-text-content ul li {
     margin-bottom: 20px;
 }
+
 .btn-2 {
     width: 174px;
     border-radius: 8px;
@@ -205,7 +206,7 @@ nav .nav-function a {
 }
 
 .main-img-content img {
-   
+
     width: 100%;
     height: 92%;
     border-radius: 16px;
@@ -213,3 +214,226 @@ nav .nav-function a {
     object-fit: cover;
     /* margin-left: 30px; */
 }
+
+/* destination section */
+
+.destination-title {
+    color: #131318;
+    font-size: 2.5rem;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.destination-description {
+    padding: 0px 260px;
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+.destination-img {
+    /* border: 2px solid red; */
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.destination-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 16px;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(<path-to-image>) lightgray 50% / cover no-repeat;
+}
+
+.grid-1 {
+    grid-column: 1/span 6;
+    grid-row: 1/span 1;
+    position: relative;
+}
+
+.location-1 {
+    position: absolute;
+    left: 220px;
+    bottom: 140px;
+    color: #FFF;
+    font-size: 1.50rem;
+    font-weight: 800;
+}
+
+.grid-2 {
+    grid-column: 7/span 6;
+    grid-row: 1/span 1;
+    position: relative;
+
+}
+
+.location-2 {
+    position: absolute;
+    left: 220px;
+    bottom: 140px;
+    color: #FFF;
+    font-size: 1.50rem;
+    font-weight: 800;
+}
+
+.grid-3 {
+    grid-column: 1/span 4;
+    grid-row: 2/span 1;
+    position: relative;
+
+}
+
+.location-3 {
+    position: absolute;
+    left: 110px;
+    bottom: 140px;
+    color: #FFF;
+    font-size: 1.50rem;
+    font-weight: 800;
+}
+
+.grid-4 {
+    grid-column: 5/span 5;
+    grid-row: 2/span 1;
+    position: relative;
+}
+
+.location-4 {
+    position: absolute;
+    left: 140px;
+    bottom: 140px;
+    color: #FFF;
+    font-size: 1.50rem;
+    font-weight: 800;
+}
+
+.grid-5 {
+    grid-column: 10/span 3;
+    grid-row: 2/span 1;
+    position: relative;
+}
+
+.location-5 {
+    position: absolute;
+    left: 90px;
+    bottom: 140px;
+    color: #FFF;
+    font-size: 1.50rem;
+    font-weight: 800;
+}
+
+.grid-6 {
+    grid-column: 1/span 5;
+    grid-row: 3/span 1;
+    position: relative;
+}
+
+.location-6 {
+    position: absolute;
+    left: 150px;
+    bottom: 140px;
+    color: #FFF;
+    font-size: 1.50rem;
+    font-weight: 800;
+}
+
+.grid-7 {
+    grid-column: 6/span 7;
+    grid-row: 3/span 1;
+    position: relative;
+
+}
+
+.location-7 {
+    position: absolute;
+    left: 260px;
+    bottom: 140px;
+    color: #FFF;
+    font-size: 1.50rem;
+    font-weight: 800;
+}
+
+/* why choose us styles */
+
+.choose-us-title {
+    color: #131318;
+    font-size: 2.5rem;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 24px;
+    margin-top: 70px;
+
+}
+
+.choose-us-description {
+    padding: 0px 260px;
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+.card-1 {
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    padding: 32px 50px 32px 32px;
+
+}
+
+.card-1-title {
+    color: #131318;
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin-top: 32px;
+
+}
+
+.card-1-description {
+    color: #5A5A5D;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 16px;
+
+
+}
+
+.card-2 {
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+    padding: 32px 50px 32px 32px;
+}
+
+.card-3 {
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    padding: 32px 50px 32px 32px;
+
+}
+.choose-us-card{
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-rows: repeat(2,1fr);
+    gap: 24px;
+}
+.card-1{
+    grid-column: 1/span 6;
+    grid-row: 1/span 1;
+}
+.card-2{
+    grid-column: 7/span 6;
+    grid-row: 1/span 1;
+}
+.card-3{
+    grid-column: 4/span 6;
+    grid-row: 2/span 1;
+}
+
